@@ -44,8 +44,4 @@ function getgradient(){
      gradient=`linear-gradient(to right,${color1},${color2})`;
      document.body.style.background=gradient;
      document.getElementById('code').innerHTML=gradient;
-
 }
-
-
-
